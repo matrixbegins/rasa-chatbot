@@ -214,94 +214,94 @@ allowed_cities_data = [{'city_id': 4, 'city_name': 'bangalore', 'zomato_city_nam
 {'city_id': 28, 'city_name': 'visakhapatnam', 'zomato_city_name': 'Visakhapatnam', 'lat': 17.6883, 'lon': 83.2186}]
 
 
-restaurant_master = [
-    {
-      "restaurant": {
-        "apikey": "f4924dc9ad672ee8c4f8c84743301af5",
-        "id": "18614733",
-        "name": "Garden Grille & Bar - Hilton Garden Inn",
-        "url": "https://www.zomato.com/lucknow/garden-grille-bar-hilton-garden-inn-gomti-nagar?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-        "location": {
-          "address": "Hilton Garden Inn, TCG 7/7, Vibhuti Khand, Gomti Nagar, Lucknow",
-          "locality": "Gomti Nagar",
-          "city": "Lucknow",
-          "city_id": 8,
-          "latitude": "26.8641216804",
-          "longitude": "81.0082154721",
-          "zipcode": "",
-          "country_id": 1,
-          "locality_verbose": "Gomti Nagar, Lucknow"
-        },
-        "cuisines": "Chinese, Continental, North Indian, Mughlai",
-        "timings": "7 AM to 11 PM",
-        "average_cost_for_two": 2000,
-        "price_range": 4,
-        "currency": "Rs.",
-        "is_zomato_book_res": 0,
-        "mezzo_provider": "OTHER",
-        "is_book_form_web_view": 0,
-        "book_form_web_view_url": "",
-        "book_again_url": "",
-        "thumb": "https://b.zmtcdn.com/data/res_imagery/18614733_RESTAURANT_3a934bb2edaafbe4eeab834d912d9d32.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-        "user_rating": {
-          "aggregate_rating": "4.9",
-          "rating_text": "Excelente",
-          "rating_color": "3F7E00",
-          "rating_obj": {
-            "title": {
-              "text": "4.9"
-            }
-          }
-        }
-      }
-    },
-    {
-      "restaurant": {
-        "R": {
-          "has_menu_status": {
-            "delivery": -1,
-            "takeaway": -1
-          },
-          "res_id": 18625649
-        },
-        "apikey": "f4924dc9ad672ee8c4f8c84743301af5",
-        "id": "18625649",
-        "name": "Fusion Flavour",
-        "url": "https://www.zomato.com/lucknow/fusion-flavour-aliganj?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-        "location": {
-          "address": "Plot 10, Sector 9, Vikas Nagar, Aliganj, Lucknow",
-          "locality": "Aliganj",
-          "city": "Lucknow",
-          "city_id": 8,
-          "latitude": "26.8902184516",
-          "longitude": "80.9616087377",
-          "zipcode": "226024",
-          "country_id": 1,
-          "locality_verbose": "Aliganj, Lucknow"
-        },
+# restaurant_master = [
+#     {
+#       "restaurant": {
+#         "apikey": "f4924dc9ad672ee8c4f8c84743301af5",
+#         "id": "18614733",
+#         "name": "Garden Grille & Bar - Hilton Garden Inn",
+#         "url": "https://www.zomato.com/lucknow/garden-grille-bar-hilton-garden-inn-gomti-nagar?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+#         "location": {
+#           "address": "Hilton Garden Inn, TCG 7/7, Vibhuti Khand, Gomti Nagar, Lucknow",
+#           "locality": "Gomti Nagar",
+#           "city": "Lucknow",
+#           "city_id": 8,
+#           "latitude": "26.8641216804",
+#           "longitude": "81.0082154721",
+#           "zipcode": "",
+#           "country_id": 1,
+#           "locality_verbose": "Gomti Nagar, Lucknow"
+#         },
+#         "cuisines": "Chinese, Continental, North Indian, Mughlai",
+#         "timings": "7 AM to 11 PM",
+#         "average_cost_for_two": 2000,
+#         "price_range": 4,
+#         "currency": "Rs.",
+#         "is_zomato_book_res": 0,
+#         "mezzo_provider": "OTHER",
+#         "is_book_form_web_view": 0,
+#         "book_form_web_view_url": "",
+#         "book_again_url": "",
+#         "thumb": "https://b.zmtcdn.com/data/res_imagery/18614733_RESTAURANT_3a934bb2edaafbe4eeab834d912d9d32.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+#         "user_rating": {
+#           "aggregate_rating": "4.9",
+#           "rating_text": "Excelente",
+#           "rating_color": "3F7E00",
+#           "rating_obj": {
+#             "title": {
+#               "text": "4.9"
+#             }
+#           }
+#         }
+#       }
+#     },
+#     {
+#       "restaurant": {
+#         "R": {
+#           "has_menu_status": {
+#             "delivery": -1,
+#             "takeaway": -1
+#           },
+#           "res_id": 18625649
+#         },
+#         "apikey": "f4924dc9ad672ee8c4f8c84743301af5",
+#         "id": "18625649",
+#         "name": "Fusion Flavour",
+#         "url": "https://www.zomato.com/lucknow/fusion-flavour-aliganj?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+#         "location": {
+#           "address": "Plot 10, Sector 9, Vikas Nagar, Aliganj, Lucknow",
+#           "locality": "Aliganj",
+#           "city": "Lucknow",
+#           "city_id": 8,
+#           "latitude": "26.8902184516",
+#           "longitude": "80.9616087377",
+#           "zipcode": "226024",
+#           "country_id": 1,
+#           "locality_verbose": "Aliganj, Lucknow"
+#         },
 
-        "cuisines": "North Indian, Biryani, Mughlai, Chinese",
-        "timings": "11 AM to 11 PM",
-        "average_cost_for_two": 750,
-        "price_range": 3,
-        "currency": "Rs.",
-        "mezzo_provider": "ZOMATO_BOOK",
-        "is_book_form_web_view": 0,
-        "book_form_web_view_url": "",
-        "thumb": "https://b.zmtcdn.com/data/pictures/9/18625649/ec3679a39594a9db70935a559cc277ba.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-        "user_rating": {
-          "aggregate_rating": "4.7",
-          "rating_text": "Excellent",
-          "rating_color": "3F7E00",
-          "rating_obj": {
-            "title": {
-              "text": "4.7"
-            }
-          }
-        }
-      }
-    }
-  ]
+#         "cuisines": "North Indian, Biryani, Mughlai, Chinese",
+#         "timings": "11 AM to 11 PM",
+#         "average_cost_for_two": 750,
+#         "price_range": 3,
+#         "currency": "Rs.",
+#         "mezzo_provider": "ZOMATO_BOOK",
+#         "is_book_form_web_view": 0,
+#         "book_form_web_view_url": "",
+#         "thumb": "https://b.zmtcdn.com/data/pictures/9/18625649/ec3679a39594a9db70935a559cc277ba.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+#         "user_rating": {
+#           "aggregate_rating": "4.7",
+#           "rating_text": "Excellent",
+#           "rating_color": "3F7E00",
+#           "rating_obj": {
+#             "title": {
+#               "text": "4.7"
+#             }
+#           }
+#         }
+#       }
+#     }
+#   ]
 
 
 text_message_template = ""
@@ -314,7 +314,6 @@ email_message_template = """
   <title>Oxygen Survey</title>
 
   <style type="text/css">
-    /* Take care of image borders and formatting, client hacks */
     img { max-width: 600px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;}
     a img { border: none; }
     table { border-collapse: collapse !important;}
@@ -325,7 +324,6 @@ email_message_template = """
     table td { border-collapse: collapse; }
     .ExternalClass * { line-height: 115%; }
     .container-for-gmail-android { min-width: 600px; }
-
 
     /* General styling */
     * {font-family: Helvetica, Arial, sans-serif;}

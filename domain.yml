@@ -16,14 +16,14 @@ entities:
 - price
 - user_email
 intents:
-- affirm
-- deny
-- send_email
-- bot_challenge
-- restaurant_search
-- greet
-- goodbye
 - information
+- deny
+- restaurant_search
+- goodbye
+- send_email
+- affirm
+- greet
+- bot_challenge
 - stop
 session_config:
   carry_over_slots_to_new_session: true
@@ -85,6 +85,14 @@ templates:
   utter_goodbye:
   - text: goodbye :(
   - text: Bye-bye
+  - text: see you around
+  - text: see you later
+  - text: see you soon
+  - text: talk to you soon
+  - text: Goodbye friend
+  - text: bye for now
+  - text: catch you later
+  - text: have a nice day
   utter_greet:
   - text: hey there! How may i help you
   - text: Hi, How can I help you!

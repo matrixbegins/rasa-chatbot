@@ -23,6 +23,9 @@
 - yes go on
 - yeah go on
 - yes please
+- ok thanks
+- ok sure
+- thanks
 
 ## intent:goodbye
 - bye
@@ -51,6 +54,10 @@
 - i'm off
 - we'll speak soon
 - thanks, bye
+- ok great, goodbye
+- bye bot
+- ok thanks bye
+- alright bye for now
 
 ## intent:greet
 - hey
@@ -86,6 +93,8 @@
 - god no
 - Please don't
 - Please no
+- no not really
+- no I don't want email
 
 ## intent:bot_challenge
 - are you a bot?
@@ -109,6 +118,10 @@
 - oh sure [newmail@gmail.com](user_email)
 - yes of course. its [nomail@gmail.com](user_email)
 - I can be mailed at [nomail@gmail.com](user_email)
+- yes send me an email on [matrixbegins@gmail.com](user_email)
+- [matrixbegins@gmail.com](user_email)
+- mail me on [matrixbegins@gmail.com](user_email)
+- [nomail@g](user_email)
 
 ## intent:information
 - [Bangalore](location)
@@ -221,10 +234,22 @@
 - [American](cuisine)
 - [South Indian](cuisine)
 - [North Indian](cuisine)
-- [Lesser than 300](budget)
-- [300 to 700](budget)
-- [More than 700](budget)
-
+- [Lesser than 300](price)
+- [300 to 700](price)
+- [More than 700](price)
+- [mumbai](location)
+- [Mexican](cuisine:mexican)
+- [Italian](cuisine:italian)
+- [less than 300](price:lesser than 300)
+- [Chinese](cuisine:chinese)
+- [greater than 700](price)
+- [no preference](price:no_preference)
+- [more than 700](price)
+- [matrixbegins@gm](location)
+- [matrixbegins@gmail.com](user_email)
+- [Bangalore](location:bangalore)
+- [American](cuisine:american)
+- [bhopal](location)
 
 ## intent:restaurant_search
 - find me a restaurant
@@ -255,33 +280,50 @@
 - show me near by restaurants in [Mumbai](location)
 - show me near by places to have dinner in [Mumbai](location)
 - can you please find a restaurant in [Lucknow](location)
-- find me a [Chinese](cuisine_type) restaurant in [Delhi](location)
-- show me near by [North Indian](cuisine_type) restaurants in [Mumbai](location)
-- show me [North Indian](cuisine_type) restaurants in [Mumbai](location)
-- i am looking for an [South Indian](cuisine_type) spot in [Bhopal](location)
-- can you please find an [Italian](cuisine_type) joint in [Lucknow](location)
-- I am searching for [Mexican](cuisine_type) restaurant in [Chandigarh](location)
-- I am searching for an [expensive](budget) [Mexican](cuisine_type) restaurant in [Chandigarh](location)
-- I am searching for an [expensive](budget) [Mexican](cuisine_type) restaurant in [Chandigarh](location) to dine out
-- can you please find a [budget](budget) [North Indian](cuisine_type) restaurant in [Chandigarh](location)
-- find me a [not so costly](budget) [Mexican](cuisine_type) restaurant in [Lucknow](location)
-- find me a [North Indian](cuisine_type) restaurant
-- find me an [inexpensive](budget) [American](cuisine_type) restaurant
-- find me an [cheaper](budget) [Mexican](cuisine_type) eatery
-- I am searching for a [South Indian](cuisine_type) eatery in [Ludhiana](location)
-- I am searching for a [North Indian](cuisine_type) restaurant. I am currently in [Hyderabad](location)
-- find me a [North Indian](cuisine_type) restaurant. I am in [Hyderabad](location)
-- find me a good [North Indian](cuisine_type) restaurant
-- can you help me with good [American](cuisine_type) restaurants?
-- can you help me with a good [American](cuisine_type) restaurant in [Delhi](location)
+- find me a [Chinese](cuisine) restaurant in [Delhi](location)
+- show me near by [North Indian](cuisine) restaurants in [Mumbai](location)
+- show me [North Indian](cuisine) restaurants in [Mumbai](location)
+- i am looking for an [South Indian](cuisine) spot in [Bhopal](location)
+- can you please find an [Italian](cuisine) joint in [Lucknow](location)
+- I am searching for [Mexican](cuisine) restaurant in [Chandigarh](location)
+- I am searching for an [expensive](price:more than 700) [Mexican](cuisine) restaurant in [Chandigarh](location)
+- I am searching for an [expensive](price:more than 700) [Mexican](cuisine) restaurant in [Chandigarh](location) to dine out
+- can you please find a [budget](price:lesser than 300) [North Indian](cuisine) restaurant in [Chandigarh](location)
+- find me a [not so costly](price:300 to 700) [Mexican](cuisine) restaurant in [Lucknow](location)
+- find me a [North Indian](cuisine) restaurant
+- find me an [inexpensive](price:lesser than 300) [American](cuisine) restaurant
+- find me an [cheaper](price:lesser than 300) [Mexican](cuisine) eatery
+- I am searching for a [South Indian](cuisine) eatery in [Ludhiana](location)
+- I am searching for a [North Indian](cuisine) restaurant. I am currently in [Hyderabad](location)
+- find me a [North Indian](cuisine) restaurant. I am in [Hyderabad](location)
+- find me a good [North Indian](cuisine) restaurant
+- can you help me with good [American](cuisine) restaurants?
+- can you help me with a good [American](cuisine) restaurant in [Delhi](location)
 - show me good restaurants in [delhi](location) with average cost of [700](price:more than 700) for two people
 - in [Gurgaon](location)
 - [South Indian](cuisine)
-- [budget](price:less than 300) restaurant
-- [expensive](price more than 700) dinner
-- where can I have [exotic](price: more than 700) dinner in [Bangalore](location)
+- [budget](price:lesser than 300) restaurant
+- [expensive](price:more than 700) dinner
+- where can I have [exotic](price:more than 700) dinner in [Bangalore](location)
 - where can I find an [average](price:300 to 700) [chinese](cuisine) restaurant in [Bangalore](location)
+- find me a place for dinner
+- can you search a restaurant in [delhi](location)?
+- I am looking for [chinese](cuisine) restaurants
+- show me near by [italian](cuisine) places in [mumbai](location)
+- I am looking for an [expensive](price:more than 700) place to dine-out
+- i need a [budget](price:lesser than 300) place to eat in [bangalore](location)
+- please find me a [mid range](price:300 to 700) [chinese](cuisine) restaurant in [Bangalore](location) to eat
+- can you find out [not very expensive](price:300 to 700) [italian](cuisine) restaurant
 
+## synonym:300 to 700
+- not so costly
+- average
+- mid range
+- moderate
+- not so expensive
+- not very expensive
+- not very costly
+- mid budget
 
 ## synonym:Delhi
 - New Delhi
@@ -290,7 +332,11 @@
 ## synonym:Prayagraj
 - Allahabad
 
+## synonym:american
+- American
+
 ## synonym:bangalore
+- Bangalore
 - Bengaluru
 - Bengeluru
 
@@ -298,8 +344,8 @@
 - madras
 
 ## synonym:chinese
-- chines
 - Chinese
+- chines
 - Chines
 
 ## synonym:gurgaon
@@ -309,34 +355,31 @@
 - hubli
 - dharwad
 
+## synonym:italian
+- Italian
+
 ## synonym:kolkata
 - calcutta
 
 ## synonym:lesser than 300
-- cheaper
-- inexpensive
 - less than 300
-- cheap
 - budget
+- inexpensive
+- cheaper
+- cheap
 - economical
 - reasonable
 - reasonable range
 - reasonable budget
 
-## synonym:300 to 700
-- moderate
-- mid range
-- average
-- not so expensive
-- not very expensive
-- not so costly
-- not very costly
-- mid budget
+## synonym:mexican
+- Mexican
 
 ## synonym:more than 700
 - expensive
-- pricey
+- 700
 - exotic
+- pricey
 - lavish
 - high budget
 - greater than Rs. 700
@@ -350,6 +393,11 @@
 
 ## synonym:mysore
 - mysuru
+
+## synonym:no_preference
+- no preference
+- anything
+- any
 
 ## synonym:non-vegetarian
 - nonveg
