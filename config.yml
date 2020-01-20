@@ -1,7 +1,5 @@
 language: en
-
 pipeline: pretrained_embeddings_spacy
-
 policies:
 - name: MemoizationPolicy
 - name: KerasPolicy
@@ -10,4 +8,4 @@ policies:
   nlu_threshold: 0.3
   ambiguity_threshold: 0.1
   core_threshold: 0.3
-  fallback_action_name: 'utter_default'
+  fallback_action_name: utter_default

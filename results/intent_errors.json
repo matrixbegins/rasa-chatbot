@@ -1,0 +1,58 @@
+[
+  {
+    "text": "nomail@mail.me",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "information",
+      "confidence": 0.5424629596503644
+    }
+  },
+  {
+    "text": "yes send me on nomail@mail.me",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2645021728663649
+    }
+  },
+  {
+    "text": "oh sure newmail@gmail.com",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.36651086948109507
+    }
+  },
+  {
+    "text": "yes of course. its nomail@gmail.com",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.36596163571442036
+    }
+  },
+  {
+    "text": "matrixbegins@gmail.com",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "information",
+      "confidence": 0.5424629596503644
+    }
+  },
+  {
+    "text": "nomail@g",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "information",
+      "confidence": 0.5424629596503644
+    }
+  },
+  {
+    "text": "South Indian",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "information",
+      "confidence": 0.5966360736890916
+    }
+  }
+]

@@ -15,6 +15,7 @@ def get_message_email(restaurant_data, subject):
 
     # prepare the restaurant data
     for rest in restaurant_data:
+        # print("name:: ", rest.get("restaurant").get("name"))
         list_item_template = constants.restaurant_list_template
         rest_name = rest.get("restaurant").get("name")
         rest_add = rest.get("restaurant").get("location").get("address")

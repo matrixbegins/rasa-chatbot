@@ -5,10 +5,10 @@ def get_slot_value(tracker, slot_name):
     return str(tracker.get_slot(slot_name)).lower()
 
 def is_servicable_city(city_name):
-    return city_name in constants.allowed_cities
+    return city_name.lower() in constants.allowed_cities
 
 def is_valid_cuisine(cuisine_name):
-    return cuisine_name in constants.allowed_cuisines
+    return cuisine_name.lower() in constants.allowed_cuisines
 
 def map_budget(budget_value):
     bmap = {
@@ -32,7 +32,7 @@ def is_valid_email(email):
 
 
 def get_city_details(city_name):
-    return list(filter(lambda x: x.get("city_name").lower() == city_name, constants.allowed_cities_data)).pop()
+    return list(filter(lambda x: x.get("city_name") == city_name.lower(), constants.allowed_cities_data)).pop()
 
 
 def search_process_data(city, cuisine, budget ):

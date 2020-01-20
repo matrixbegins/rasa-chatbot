@@ -1,0 +1,835 @@
+[
+  {
+    "text": "yes",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "yes",
+        "entity": "location",
+        "confidence": 0.5133469994260917,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yep",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "yep",
+        "entity": "location",
+        "confidence": 0.6859720081569055,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yeah",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "yeah",
+        "entity": "location",
+        "confidence": 0.5382278152615393,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "absolutely",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "absolutely",
+        "entity": "location",
+        "confidence": 0.7453068223603693,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "farewell",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "farewell",
+        "entity": "location",
+        "confidence": 0.7469651506511839,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "no",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "no",
+        "entity": "location",
+        "confidence": 0.44825356552534,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "send me information at newmail@gmail.com",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "value": "newmail@gmail.com",
+        "entity": "user_email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "oh sure newmail@gmail.com",
+    "entities": [
+      {
+        "start": 8,
+        "end": 25,
+        "value": "newmail@gmail.com",
+        "entity": "user_email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Surat",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Surat",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Lesser than 300",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Lesser than 300",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "300 to 700",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "300 to 700",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "less than 300",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "lesser than 300",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you help me with good American restaurants?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "American",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am looking for chinese restaurants",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "chinese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i need a budget place to eat in bangalore",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "lesser than 300",
+        "entity": "price"
+      },
+      {
+        "start": 32,
+        "end": 41,
+        "value": "bangalore",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 32,
+        "end": 41,
+        "value": "bangalore",
+        "entity": "location",
+        "confidence": 0.9947185836645689,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can you find out not very expensive italian restaurant",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "value": "300 to 700",
+        "entity": "price"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "value": "italian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "more than 700",
+        "entity": "price",
+        "confidence": 0.8911805791989094,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "value": "italian",
+        "entity": "cuisine",
+        "confidence": 0.9900407498045994,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ok",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "ok",
+        "entity": "location",
+        "confidence": 0.5933948357575237,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "alright",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "alright",
+        "entity": "location",
+        "confidence": 0.533661811390365,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sure",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "sure",
+        "entity": "location",
+        "confidence": 0.7568175159281655,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "end",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "end",
+        "entity": "location",
+        "confidence": 0.700308103784941,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hey",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "hey",
+        "entity": "location",
+        "confidence": 0.7168231087142234,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hello",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "hello",
+        "entity": "location",
+        "confidence": 0.7045386164879202,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "yo",
+        "entity": "location",
+        "confidence": 0.7014123568868339,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "nomail@g",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "nomail@g",
+        "entity": "user_email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "nomail@g",
+        "entity": "location",
+        "confidence": 0.5844147499845008,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Okay",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "okay",
+        "entity": "location",
+        "confidence": 0.6287533083001057,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Done",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "done",
+        "entity": "location",
+        "confidence": 0.7498982562949807,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "stop",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "stop",
+        "entity": "location",
+        "confidence": 0.7498982562949807,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hola",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "hola",
+        "entity": "location",
+        "confidence": 0.7793709738777159,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Vasai-Virar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "Vasai-Virar",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "where can I have exotic dinner in Bangalore",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "more than 700",
+        "entity": "price"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "Bangalore",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 43,
+        "value": "bangalore",
+        "entity": "location",
+        "confidence": 0.9511652632724538,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "where can I find an average chinese restaurant in Bangalore",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "300 to 700",
+        "entity": "price"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "value": "chinese",
+        "entity": "cuisine"
+      },
+      {
+        "start": 50,
+        "end": 59,
+        "value": "Bangalore",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "chinese",
+        "entity": "cuisine",
+        "confidence": 0.8223857553467984,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 59,
+        "value": "bangalore",
+        "entity": "location",
+        "confidence": 0.9511631661265352,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "please find me a mid range chinese restaurant in Bangalore to eat",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "300 to 700",
+        "entity": "price"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "value": "chinese",
+        "entity": "cuisine"
+      },
+      {
+        "start": 49,
+        "end": 58,
+        "value": "Bangalore",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "chinese",
+        "entity": "cuisine",
+        "confidence": 0.7860093605889622,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "correct",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "correct",
+        "entity": "location",
+        "confidence": 0.7325165338802268,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "greetings",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "greetings",
+        "entity": "location",
+        "confidence": 0.6628338624902236,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "nothing",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "nothing",
+        "entity": "location",
+        "confidence": 0.48756366738657814,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Hubli–Dharwad",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Hubli–Dharwad",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me good restaurants in delhi with average cost of 700 for two people",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "delhi",
+        "entity": "location"
+      },
+      {
+        "start": 55,
+        "end": 58,
+        "value": "more than 700",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "delhi",
+        "entity": "location",
+        "confidence": 0.8460161254024666,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "indeed",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "indeed",
+        "entity": "location",
+        "confidence": 0.7772917717525817,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "great",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "great",
+        "entity": "location",
+        "confidence": 0.5674219078960093,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "thanks",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "thanks",
+        "entity": "location",
+        "confidence": 0.6993445582725649,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "hi",
+        "entity": "location",
+        "confidence": 0.8434995732346343,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "namaste",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "namaste",
+        "entity": "location",
+        "confidence": 0.7772151831697516,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "never",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "never",
+        "entity": "location",
+        "confidence": 0.7968618883194786,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "nah",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "nah",
+        "entity": "location",
+        "confidence": 0.733207891813545,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "no preference",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "no_preference",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am searching for an expensive Mexican restaurant in Chandigarh to dine out",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "more than 700",
+        "entity": "price"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "value": "Mexican",
+        "entity": "cuisine"
+      },
+      {
+        "start": 54,
+        "end": 64,
+        "value": "Chandigarh",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "more than 700",
+        "entity": "price",
+        "confidence": 0.9840267872471883,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "value": "mexican",
+        "entity": "cuisine",
+        "confidence": 0.9766701991249274,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find me a not so costly Mexican restaurant in Lucknow",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "300 to 700",
+        "entity": "price"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "Mexican",
+        "entity": "cuisine"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "value": "Lucknow",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "value": "mexican",
+        "entity": "cuisine",
+        "confidence": 0.7760637159185155,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "value": "lucknow",
+        "entity": "location",
+        "confidence": 0.9444382656132619,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

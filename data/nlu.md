@@ -58,6 +58,7 @@
 - bye bot
 - ok thanks bye
 - alright bye for now
+- ok thank you
 
 ## intent:greet
 - hey
@@ -122,6 +123,7 @@
 - [matrixbegins@gmail.com](user_email)
 - mail me on [matrixbegins@gmail.com](user_email)
 - [nomail@g](user_email)
+- my email is [matrixbegins@gmail.com](user_email)
 
 ## intent:information
 - [Bangalore](location)
@@ -250,6 +252,8 @@
 - [Bangalore](location:bangalore)
 - [American](cuisine:american)
 - [bhopal](location)
+- [Mexican](cuisine:mexican)
+
 
 ## intent:restaurant_search
 - find me a restaurant
@@ -314,16 +318,18 @@
 - i need a [budget](price:lesser than 300) place to eat in [bangalore](location)
 - please find me a [mid range](price:300 to 700) [chinese](cuisine) restaurant in [Bangalore](location) to eat
 - can you find out [not very expensive](price:300 to 700) [italian](cuisine) restaurant
+- Can you find me an [expensive](price:more than 700) hotel in [Mumbai](location)?
 
 ## synonym:300 to 700
 - not so costly
 - average
 - mid range
+- not very expensive
 - moderate
 - not so expensive
-- not very expensive
 - not very costly
 - mid budget
+
 
 ## synonym:Delhi
 - New Delhi
@@ -371,6 +377,8 @@
 - reasonable
 - reasonable range
 - reasonable budget
+- average cost of two people less than 300
+- average cost of two people < 300
 
 ## synonym:mexican
 - Mexican
@@ -385,6 +393,9 @@
 - greater than Rs. 700
 - greater than 700 rupes
 - more than 700 rupees
+- average cost of two people more than 700
+- average cost of two people greater than 700
+- average cost of two people > 300
 
 ## synonym:mumbai
 - Bombay
