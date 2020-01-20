@@ -32,17 +32,18 @@ class ActionSearchRestaurants(Action):
 			dispatcher.utter_message("I was unable to find the requested data against your query. Can you try with changing your preferences?")
 			return [SlotSet('location',loc)]
 
-		response = "\U0001F374 Showing you the best results from {} ".format(loc)
-		response = response + "\n Your preferences: Cuisine Type: {} and Budget: {} ".format(cuisine, budget)
+		response = "\U0001F374 Showing you the best results from {} \n".format(loc.title())
+		response = response + "\n *Your preferences*: Cuisine Type: {} and Budget: {} \n".format(cuisine.title(), budget)
 
 		if no_cuisine_flag:
-			response = response + "\n\n The cuisine preference couldn't be matched. Showing all cuisines"
+			response = response + "\n\n __The cuisine preference couldn't be matched.__ Showing all cuisines"
 		if no_budget_flag:
-			response = response + "\n\n The budget preference couldn't be matched. Showing all restaurants"
+			response = response + "\n\n __The budget preference couldn't be matched.__ Showing all restaurants"
 
+		response = response + "\n"
 		# display only 5 restaurant to user
 		for restaurant in dresults[0:5]:
-			print(restaurant)
+			# print(restaurant)
 			response = response + "\n - " + restaurant.get("restaurant").get("name")
 			response = response + " in "+ restaurant.get("restaurant").get("location").get("address")
 			response = response + " has been rated \U00002B50 {}".format(restaurant.get("restaurant").get("user_rating").get("aggregate_rating"))

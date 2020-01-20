@@ -40,7 +40,7 @@ slots:
 templates:
   utter_ask_budget:
   - buttons:
-    - payload: less than 300
+    - payload: lesser than 300
       title: Less than Rs. 300
     - payload: 300 to 700
       title: Rs. 300 to Rs. 700
@@ -48,7 +48,7 @@ templates:
       title: More than Rs. 700
     - payload: no_preference
       title: No preference
-    text: do you have any budget preference?
+    text: 💰do you have any budget preference?
   utter_ask_cuisine:
   - buttons:
     - payload: Chinese
@@ -67,9 +67,9 @@ templates:
       title: No preference
     text: what kind of cuisine would you like?
   utter_ask_email:
-  - text: can you please provide me your email to send this information?
-  - text: can you share your email where you want this information?
-  - text: please enter your email to recieve this information
+  - text: 📧 can you please provide me your email to send this information?
+  - text: 📧 can you share your email where you want this information?
+  - text: 📧 please enter your email to recieve this information
   utter_ask_howcanhelp:
   - text: how can I help you?
   utter_ask_location:
@@ -79,22 +79,26 @@ templates:
   - text: In which city you want to me find out?
   - text: In which location?
   utter_default:
-  - text: i cannot understand
-  - text: I didn't quite get that
+  - text: Sorry, i cannot understand
+  - text: I am afraid, I didn't quite get that
   - text: Sorry I couldn't understand that
   utter_goodbye:
-  - text: goodbye :(
-  - text: Bye-bye
-  - text: see you around
-  - text: see you later
-  - text: see you soon
-  - text: talk to you soon
-  - text: Goodbye friend
-  - text: bye for now
-  - text: catch you later
-  - text: have a nice day
+  - text: 👋 Thanks for getting in touch. goodbye
+  - text: 👋 Thanks for getting in touch. Bye-bye
+  - text: 👋 Thank you for your time. See you around
+  - text: 👋 Thank you for your time. See you later
+  - text: 👋 Let me know how else can I help you. See you soon
+  - text: 👋 Let me know how else can I help you. talk to you soon
+  - text: 👋 Let me know if you need any more restaurant infromation. Goodbye friend
+  - text: 👋 ok, bye for now
+  - text: 👋 Alright, catch you later
+  - text: 👋 have a nice day
+  - text: 👋 You are welcome! talk to you soon.
   utter_greet:
-  - text: hey there! How may i help you
-  - text: Hi, How can I help you!
-  - text: Can I find you a nice spot to eat?
-  - text: Hey, How is it going. How May I help you Today
+  - text: 🙋hey there! How may i help you
+  - text: 🙋Hi, How can I help you!
+  - text: 🙋Oh hello, Can I find you a nice spot to eat?
+  - text: 🙋Hey, How is it going. How May I help you Today?
+  - text: 🙋Hey! How are you?
+  - text: 🙋How can I help you today?
+  - text: 🙋Want to do a restaurant search in your area?
