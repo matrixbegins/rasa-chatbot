@@ -13,7 +13,7 @@ def get_message_email(restaurant_data, subject):
     # restaurant_data = constants.restaurant_master
     txt_items = []
 
-    # prepare the restaurant data
+    # prepare the restaurant data from zomato
     for rest in restaurant_data:
         # print("name:: ", rest.get("restaurant").get("name"))
         list_item_template = constants.restaurant_list_template
